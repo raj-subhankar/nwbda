@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">NWBDA</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_title">Welcome</string>
+
+    <string name="about_swe_para1">Leadership in software is imperative in all spheres of our existence like economy, security and quality of life.</string>
+    <string name="about_swe_para2">The prime focus of Software Engineering Department (SWE) is to enhance the students to extend and sregthen the ability to develop and sustain the transformative system to create Future leaders and trend Setters for the next generation. Our department offers a comprehensice Undergraduate Curriculum that prepares students to be Industry leaders in software engineering.</string>
+    <string name="about_swe_para3">Department of SWE started its operation by offering a M.tech course from 2002. Later in 2008 B.Tech course was started. Well qualified and experienced faculties from the backbone of the department. Also Resource presons from various industried are regularly invited to deliver guestlectures, project guide ship and seminars on related topics in the curricula. the department has been successful in conducting various national and international Workshops, Seminars, Conferences annually in the fields of Software Enginnering.</string>
+
+
+    <string name="about_srm_para1">SRM University is one of the top ranking private Universities in India accredited by NAAC with Grade A. It has over 38,000 students and more than 2600 faculties, offering a wide range of Undergraduate, Postgraduate and Doctorial program in Engineering, Management, Medicine and Health Sciences and Science and Humanities.</string>
+    <string name="about_srm_para2">Over the last two and a half decades SRM University has set standards in Pragmatic Education System and Knowledge Conception across various fields. During January 2011, SRM University has taken the Pride and Honor in hosting the 98th Indian Science Congress, which was innaugurated by Dr. Manmohan Singh, prime Minister of India and 7000 delegates including Six Nobel Laureates and several eminent scientists across the world participated.</string>
+    <string name="about_srm_para3">SRM University is the first private university to launch a Nano Satellite named SRMSAT onto space, on-board the PSLV-C18 from Sriharikota on 12th November 2011. The University has been accredited by NAAC with A grade and Ministry of HRD placed it in A Category.</string>
+
+
+    <string name="about_workshop_para1">Big Data refers to the act of gathering and storing large amounts of information for eventual analysis. The amounts of information for eventual analysis. The amount of data thats being created and stored on a global level is almost inconceivable, and it just keeps growing.</string>
+    <string name="about_workshop_para2">By 2020 the usage of Smartphones will increase to 6.1 billion, thereby increasing the data usability such as email 294 billion, and tweets 230 million daily. \nTo analyze such a large volume of data, big data analytics is typically performed using specialized software tools and this results will be useful for applications like predictive analysis, data mining, text mining, fore-casting and data optimization, etc..</string>
+    <string name="about_workshop_para3">The traditional relational database management systems spawned a host of new technologies, approaches, and platforms. Big data helps to understand the customers need and target in better way by optimizing their buisness process. To extract meaningful value from big data, we need optimal processing power, analytics capabilities and skills. Over 4.4 million data scientist needed for Bigdata analytics globally.</string>
+    <string name="about_workshop_para4">This workshop aims to professionalize participants to become sophisticated industrial practitioner and Researchers to face the challenges in the field of big data analytics in enterprise applications using its tools.</string>
+
+
+    <string name="registration_details">Filled up registration form is to be sent to the convener along with the DD for registration fee in favor of SWEA payable at Chennai. The total number of participants are limited to 50. The selection will be based on first come first served basis. Registration fee only includes: Lunch, Refreshments and Workshop Kit. No TA/DA will be provided. Accommodation Charges are Rs. 150 per day for which deposit amount will be collected during registration. All the participants are requested to carry their own laptops for hands on session.</string>
+
+    <string name="title_activity_about_srm">AboutSrm</string>
+    <string name="title_activity_schedule">Schedule</string>
+
+    <dimen name="keyline_2">72dp</dimen>
+    <string name="title_activity_about_swe">AboutSwe</string>
+    <string name="title_activity_registration_details">RegistrationDetails</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_day_two_fragment">DayTwoFragment</string>
+    <string name="title_activity_about">About</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="About">
+            <menu>
+                <item
+                    android:id="@+id/about_workshop"
+                    android:icon="@drawable/ic_event"
+                    android:title="Workshop" />
+                <item
+                    android:id="@+id/about_srm"
+                    android:icon="@drawable/ic_university"
+                    android:title="SRM University" />
+                <item
+                    android:id="@+id/about_swe"
+                    android:icon="@drawable/ic_software"
+                    android:title="Software Department" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Schedule" />
+
+        <item
+            android:id="@+id/registration_details"
+            android:icon="@drawable/ic_action_settings"
+            android:title="Registration Details" />
+    </group>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="About App" />
+    </group>
+</menu>
+

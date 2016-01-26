@@ -1,0 +1,360 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/keyline_2"
+        android:paddingRight="@dimen/keyline_2"
+        android:textColor="@color/body_text_1"
+        android:textSize="@dimen/text_size_large"
+        android:text="9:00am" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:layout_width="@dimen/my_schedule_icon_size"
+            android:layout_height="@dimen/my_schedule_icon_size"
+            android:layout_marginLeft="@dimen/my_schedule_icon_horizontal_padding"
+            android:layout_marginRight="@dimen/my_schedule_icon_horizontal_padding"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_navview_my_schedule" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:textColor="@color/body_text_1"
+                android:textSize="@dimen/text_size_medium"
+                android:text="Introduction to BigData" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:textColor="@color/body_text_1"
+                android:textSize="@dimen/text_size_medium"
+                android:text="Hadoop - The BigData Framework" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="@dimen/text_size_medium"
+                android:text="9:00 AM - 11:30 AM / Mini Hall"
+                style="@style/Body1Text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="10dp"
+                android:text="Speaker: Mr. Anil Singh"
+                android:textColor="@color/flat_button_text"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/list_dropdown_divider_color" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/keyline_2"
+            android:paddingRight="@dimen/keyline_2"
+            android:textColor="@color/body_text_1"
+            android:textSize="@dimen/text_size_large"
+            android:text="11:30am" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <ImageView
+                android:layout_width="@dimen/my_schedule_icon_size"
+                android:layout_height="@dimen/my_schedule_icon_size"
+                android:layout_marginLeft="@dimen/my_schedule_icon_horizontal_padding"
+                android:layout_marginRight="@dimen/my_schedule_icon_horizontal_padding"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_navview_my_schedule" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:textColor="@color/body_text_1"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="Hadoop - Internals (HDFS, Map Reduce)" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:textColor="@color/body_text_1"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="Introdution to Linux and Java Environment" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="11:30 AM - 12:30 AM / Mini Hall"
+                    style="@style/Body1Text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Speaker: Mr. Anil Singh"
+                    android:textColor="@color/flat_button_text"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/list_dropdown_divider_color" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/keyline_2"
+                android:paddingRight="@dimen/keyline_2"
+                android:textColor="@color/body_text_1"
+                android:textSize="@dimen/text_size_large"
+                android:text="1:00pm" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <ImageView
+                    android:layout_width="@dimen/my_schedule_icon_size"
+                    android:layout_height="@dimen/my_schedule_icon_size"
+                    android:layout_marginLeft="@dimen/my_schedule_icon_horizontal_padding"
+                    android:layout_marginRight="@dimen/my_schedule_icon_horizontal_padding"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_navview_my_schedule" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginRight="24dp"
+                        android:layout_marginTop="8dp"
+                        android:ellipsize="end"
+                        android:textColor="@color/body_text_1"
+                        android:textSize="@dimen/text_size_medium"
+                        android:text="Hands on - Getting Started with Hadoop HDFS and running MR" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:textSize="@dimen/text_size_medium"
+                        android:text="1:00 PM - 2:00 AM / Mini Hall"
+                        style="@style/Body1Text" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Speaker: Mr. Anil Singh"
+                        android:textColor="@color/flat_button_text" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/list_dropdown_divider_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/keyline_2"
+                android:paddingRight="@dimen/keyline_2"
+                android:textColor="@color/body_text_1"
+                android:textSize="@dimen/text_size_large"
+                android:text="3:00pm" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/icon2"
+                    android:layout_width="@dimen/my_schedule_icon_size"
+                    android:layout_height="@dimen/my_schedule_icon_size"
+                    android:layout_marginLeft="@dimen/my_schedule_icon_horizontal_padding"
+                    android:layout_marginRight="@dimen/my_schedule_icon_horizontal_padding"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_navview_my_schedule" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginRight="24dp"
+                        android:layout_marginTop="8dp"
+                        android:ellipsize="end"
+                        android:textColor="@color/body_text_1"
+                        android:textSize="@dimen/text_size_medium"
+                        android:text="Hands on - Installation of Pseudo-distributed mode in Hadoop 2.x" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginRight="24dp"
+                        android:layout_marginTop="8dp"
+                        android:ellipsize="end"
+                        android:textColor="@color/body_text_1"
+                        android:textSize="@dimen/text_size_medium"
+                        android:text="Introduction to Map Reduce Programming" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:textSize="@dimen/text_size_medium"
+                        android:text="3:00 PM - 4:30 PM / Lab"
+                        style="@style/Body1Text" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Speaker: Mr. Anil Singh"
+                        android:textColor="@color/flat_button_text"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/list_dropdown_divider_color" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

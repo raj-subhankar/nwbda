@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#0097a7</color>
+    <color name="colorAccent">#ffeb3b</color>
+
+    <color name="body_text_1">#de000000</color>
+    <color name="list_dropdown_divider_color">#92a3a3a3</color>
+    <color name="flat_button_text">#ff008094</color>
+</resources>
