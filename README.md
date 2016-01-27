@@ -1,5 +1,6 @@
 ## Material Design Android app for National Workshop on Big Data Analytics (NWBDA 2016)
-![](https://github.com/raj-subhankar/nwbda/wiki/screenshots/mainactivity.PNG)
+
+[![](https://github.com/raj-subhankar/nwbda/wiki/screenshots/youtube.PNG)](https://www.youtube.com/embed/QcOk8tTRYgo)
 
 ###Material Design features implemented
 ###1. Navigation Drawer
