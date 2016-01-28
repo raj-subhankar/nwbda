@@ -1,5 +1,6 @@
 package com.example.subhankar.nwbda;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -89,6 +90,14 @@ public class Schedule extends BaseActivity {
     @Override
     public boolean providesActivityToolbar() {
         return true;
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        finish(); // to simulate "restart" of the activity.
+        startActivity(intent);
     }
 }
 

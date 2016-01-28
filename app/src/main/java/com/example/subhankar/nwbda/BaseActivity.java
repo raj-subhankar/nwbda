@@ -167,12 +167,4 @@ public abstract class BaseActivity extends AppCompatActivity {
 
         }
     }
-
-    @Override
-    public void onBackPressed()
-    {
-        Intent intent = new Intent(this, MainActivity.class);
-        finish(); // to simulate "restart" of the activity.
-        startActivity(intent);
-    }
 }

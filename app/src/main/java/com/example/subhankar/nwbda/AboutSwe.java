@@ -1,5 +1,6 @@
 package com.example.subhankar.nwbda;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -36,5 +37,13 @@ public class AboutSwe extends BaseActivity {
     @Override
     public boolean providesActivityToolbar() {
         return true;
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        finish(); // to simulate "restart" of the activity.
+        startActivity(intent);
     }
 }

@@ -81,4 +81,12 @@ public class RegistrationDetails extends BaseActivity {
     public boolean providesActivityToolbar() {
         return true;
     }
+
+    @Override
+    public void onBackPressed()
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        finish(); // to simulate "restart" of the activity.
+        startActivity(intent);
+    }
 }
